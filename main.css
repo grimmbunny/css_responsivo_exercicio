@@ -162,18 +162,11 @@ section {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .container {
         max-width: 90%;
-    }
-
-    .sobre img {
-        margin-bottom: 16px;
+        
     }
 
     article {
         margin-bottom: 16px;
-    }
-
-    img {
-        max-width: 95%;
     }
 
     .botao-menu {
@@ -181,7 +174,10 @@ section {
     }
 
     .produtos {
-        grid-template-columns: repeat (2, 49%);
+        grid-template-columns: 49.5% 49.5%;
+        gap: 1%;
+        justify-content: center;
+        
     }
 }
 
